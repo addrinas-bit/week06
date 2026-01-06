@@ -1,11 +1,13 @@
+package Senario1to5;
+
 
 /**
- * Write a description of class Chiyapasal here.
+ * Write a description of class ChiyaPasal here.
  *
  * @author (your name)
  * @version (a version number or a date)
  */
-public class Chiyapasal
+public class ChiyaPasal
 {
     public static void main(String[] args){
         System.out.println("-------------");

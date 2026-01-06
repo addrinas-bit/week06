@@ -1,0 +1,38 @@
+package week09;
+
+
+/**
+ * Write a description of class BankAccount here.
+ *
+ * @author (your name)
+ * @version (a version number or a date)
+ */
+public class BankAccount
+{
+    protected int accountNumber;
+    protected String accountHolderName;
+    protected double balance;
+
+    // Constructor
+    public BankAccount(int accountNumber, String accountHolderName, double balance) {
+        this.accountNumber = accountNumber;
+        this.accountHolderName = accountHolderName;
+        this.balance = balance;
+    }
+
+    // Deposit amount
+    public void deposit(double amount) {
+        if (amount > 0) {
+            balance += amount;
+            System.out.println("Deposited: " + amount);
+        } else {
+            System.out.println("Invalid deposit amount");
+        }
+    }
+
+    // Get current balance
+    public double getBalance() {
+        return balance;
+    }
+}
+
